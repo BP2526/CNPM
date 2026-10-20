@@ -1,0 +1,34 @@
+{
+  "id": "nha-hat-thanh-pho-ho-chi-minh",
+  "source_language": "vi",
+  "target_language": "en",
+  "original": {
+    "id": "nha-hat-thanh-pho-ho-chi-minh",
+    "name": "Nhà hát Thành phố Hồ Chí Minh",
+    "address": "07 Công trường Lam Sơn, phường Sài Gòn, Thành phố Hồ Chí Minh",
+    "description": "Nhà hát thành phố theo phong cách kiến trúc Pháp, là địa điểm tổ chức các chương trình biểu diễn nghệ thuật và sự kiện văn hóa.",
+    "rating": {
+      "value": 4.6,
+      "scale": 5,
+      "source": "Google Maps",
+      "review_count": null,
+      "retrieved_on": "2026-10-20"
+    },
+    "review": "Công trình đẹp ở khu trung tâm; trải nghiệm bên trong phụ thuộc lịch biểu diễn và vé từng chương trình.",
+    "image_url": "https://evivatour.com/wp-content/uploads/2021/09/Saigon-Opera-House-1-1000x565.jpg",
+    "image_source": "Eviva Tour",
+    "image_credit": "Eviva Tour",
+    "sources": [
+      "https://www.google.com/maps/search/Saigon+Opera+House+Ho+Chi+Minh+City"
+    ]
+  },
+  "translated": {
+    "name": "Ho Chi Minh City Theatre",
+    "description": "The City Theatre follows the French architectural style, which hosts art and cultural performances.",
+    "review": "Nice work in the central section; the inner experience depends on the schedule of the performance and tickets of the show.",
+    "address": "07 Lam Shan Square, Saigon, Ho Chi Minh City"
+  },
+  "image_url": "https://evivatour.com/wp-content/uploads/2021/09/Saigon-Opera-House-1-1000x565.jpg",
+  "image_source": "Eviva Tour",
+  "image_credit": "Eviva Tour"
+}

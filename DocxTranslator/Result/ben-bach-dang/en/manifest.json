@@ -1,0 +1,14 @@
+{
+  "object_id": "ben-bach-dang",
+  "name": "Bến Bạch Đằng",
+  "status": "complete",
+  "source_language": "vi",
+  "target_language": "en",
+  "result_directory": "ben-bach-dang/en",
+  "files": {
+    "translated_json": "translated.json",
+    "translated_text": "translated.txt",
+    "audio": "speech.mp3"
+  },
+  "created_at": "2026-10-20T12:16:12.502881+00:00"
+}

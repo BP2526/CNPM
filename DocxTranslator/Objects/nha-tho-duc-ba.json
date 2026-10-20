@@ -1,0 +1,20 @@
+{
+  "id": "nha-tho-duc-ba",
+  "name": "Nhà thờ Đức Bà Sài Gòn",
+  "address": "01 Công trường Công xã Paris, phường Sài Gòn, Thành phố Hồ Chí Minh",
+  "description": "Nhà thờ chính tòa nổi bật với kiến trúc Roman và Gothic, nằm cạnh Bưu điện Trung tâm Sài Gòn; hiện cần kiểm tra thông tin mở cửa và khu vực tham quan do hoạt động trùng tu có thể thay đổi.",
+  "rating": {
+    "value": 4.4,
+    "scale": 5,
+    "source": "Google Maps",
+    "review_count": 28668,
+    "retrieved_on": "2026-10-20"
+  },
+  "review": "Công trình kiến trúc mang tính biểu tượng và nằm giữa cụm tham quan trung tâm; nên kiểm tra tình trạng tham quan trước khi đến.",
+  "image_url": "https://evivatour.com/wp-content/uploads/2021/09/Notre-Dame-Cathedral-Saigon-1000x565.jpg",
+  "image_source": "Eviva Tour",
+  "image_credit": "Eviva Tour",
+  "sources": [
+    "https://image.vietnam.travel/things-to-do/7-must-see-attractions-hcmc"
+  ]
+}

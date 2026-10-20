@@ -1,0 +1,20 @@
+{
+  "id": "cho-ben-thanh",
+  "name": "Chợ Bến Thành",
+  "address": "Lê Lợi, phường Bến Thành, Thành phố Hồ Chí Minh",
+  "description": "Khu chợ trung tâm nổi bật với tháp đồng hồ, bán thực phẩm, hàng thủ công, quà lưu niệm và nhiều món ăn địa phương.",
+  "rating": {
+    "value": 4.0,
+    "scale": 5,
+    "source": "Google Maps",
+    "review_count": 86394,
+    "retrieved_on": "2026-10-20"
+  },
+  "review": "Địa điểm thuận tiện để tìm hiểu không khí chợ truyền thống và thử món địa phương; nên hỏi giá trước khi mua.",
+  "image_url": "https://media.vneconomy.vn/images/upload/2024/03/28/cho-ben-thanh-ivivu-1.jpeg",
+  "image_source": "VnEconomy",
+  "image_credit": "VnEconomy",
+  "sources": [
+    "https://www.google.com/maps/search/Ben+Thanh+Market+Ho+Chi+Minh+City"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "bao-tang-my-thuat",
+  "source_language": "vi",
+  "target_language": "zh",
+  "original": {
+    "id": "bao-tang-my-thuat",
+    "name": "Bảo tàng Mỹ thuật Thành phố Hồ Chí Minh",
+    "address": "97A Phó Đức Chính, phường Bến Thành, Thành phố Hồ Chí Minh",
+    "description": "Bảo tàng mỹ thuật trong dinh thự lịch sử, trưng bày mỹ thuật Việt Nam qua nhiều giai đoạn cùng một số bộ sưu tập điêu khắc và hiện vật.",
+    "rating": {
+      "value": 4.3,
+      "scale": 5,
+      "source": "Google Maps",
+      "review_count": null,
+      "retrieved_on": "2026-10-20"
+    },
+    "review": "Phù hợp với người yêu nghệ thuật và kiến trúc; tòa nhà cổ cũng là một phần đáng xem của chuyến tham quan.",
+    "image_url": "https://architecture-tour.com/image/world-vietnam-ho-chi-minh-city-fine-arts-museum_image2-768x576.jpg",
+    "image_source": "Architecture Tour",
+    "image_credit": "Architecture Tour",
+    "sources": [
+      "https://hcmcmuseumoffinearts.wixsite.com/mysite/hours-and-admission"
+    ]
+  },
+  "translated": {
+    "name": "美国胡志明市博物馆",
+    "description": "历史豪宅中的艺术博物馆,通过同一批雕塑和文物的不同阶段展示越南的艺术.",
+    "review": "按照艺术爱好者和建筑风格;古建筑也是巡演中有价值的部分.",
+    "address": "97A 胡志明市德国副市长"
+  },
+  "image_url": "https://architecture-tour.com/image/world-vietnam-ho-chi-minh-city-fine-arts-museum_image2-768x576.jpg",
+  "image_source": "Architecture Tour",
+  "image_credit": "Architecture Tour"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "thao-cam-vien-sai-gon",
+  "source_language": "vi",
+  "target_language": "en",
+  "original": {
+    "id": "thao-cam-vien-sai-gon",
+    "name": "Thảo Cầm Viên Sài Gòn",
+    "address": "02 Nguyễn Bỉnh Khiêm, phường Sài Gòn, Thành phố Hồ Chí Minh",
+    "description": "Vườn thú và vườn thực vật lâu đời trong trung tâm thành phố, có khu cây xanh, động vật và các công trình văn hóa trong khuôn viên.",
+    "rating": {
+      "value": 4.3,
+      "scale": 5,
+      "source": "Google Maps (điểm tham quan, dữ liệu tổng hợp)",
+      "review_count": 34900,
+      "retrieved_on": "2026-10-20"
+    },
+    "review": "Không gian xanh phù hợp cho gia đình và chuyến tham quan ngoài trời; nên xem thông báo chính thức về hoạt động và giờ mở cửa.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/M%E1%BB%99t_ph%E1%BA%A7n_Th%E1%BA%A3o_C%E1%BA%A7m_Vi%C3%AAn_S%C3%A0i_G%C3%B2n.jpg",
+    "image_source": "Wikimedia Commons",
+    "image_credit": "Một phần Thảo Cầm Viên Sài Gòn",
+    "sources": [
+      "https://saigonzoo.net/",
+      "https://www.google.com/maps/search/Saigon+Zoo+and+Botanical+Gardens+Ho+Chi+Minh+City"
+    ]
+  },
+  "translated": {
+    "name": "Yuan Yuan Saigon",
+    "description": "Long-time zoos and plant gardens in the city centre, there are green, animal and cultural structures in the campus.",
+    "review": "Greenspace is suitable for family and outdoor tours; should be viewed as an official announcement of activity and hours of opening time.",
+    "address": "Hu Chi Minh City"
+  },
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/M%E1%BB%99t_ph%E1%BA%A7n_Th%E1%BA%A3o_C%E1%BA%A7m_Vi%C3%AAn_S%C3%A0i_G%C3%B2n.jpg",
+  "image_source": "Wikimedia Commons",
+  "image_credit": "Một phần Thảo Cầm Viên Sài Gòn"
+}

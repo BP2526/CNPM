@@ -1,0 +1,34 @@
+{
+  "id": "dinh-doc-lap",
+  "source_language": "vi",
+  "target_language": "en",
+  "original": {
+    "id": "dinh-doc-lap",
+    "name": "Dinh Độc Lập",
+    "address": "135 Nam Kỳ Khởi Nghĩa, phường Bến Thành, Thành phố Hồ Chí Minh",
+    "description": "Di tích lịch sử gắn với sự kiện ngày 30/04/1975; tham quan các phòng khánh tiết, phòng làm việc, hầm chỉ huy và khuôn viên kiến trúc hiện đại.",
+    "rating": {
+      "value": 4.5,
+      "scale": 5,
+      "source": "Google Maps",
+      "review_count": 48353,
+      "retrieved_on": "2026-10-20"
+    },
+    "review": "Điểm tham quan lịch sử và kiến trúc tiêu biểu; nên dành thời gian tham quan cả khuôn viên lẫn các tầng bên trong.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/20190923_Independence_Palace-10.jpg",
+    "image_source": "Wikimedia Commons",
+    "image_credit": "20190923_Independence_Palace-10.jpg",
+    "sources": [
+      "https://dinhdoclap.gov.vn/"
+    ]
+  },
+  "translated": {
+    "name": "Independence",
+    "description": "Historic Records are tied to the event of April 30, 1975; tours of the dedication rooms, workshops, command vaults and modern architectural campus.",
+    "review": "The historical and architectural sights are typical; time should be spent in both the campus and the interior floors.",
+    "address": "135 South Korea, the city's base, the city of Ho Chi Minh"
+  },
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/20190923_Independence_Palace-10.jpg",
+  "image_source": "Wikimedia Commons",
+  "image_credit": "20190923_Independence_Palace-10.jpg"
+}

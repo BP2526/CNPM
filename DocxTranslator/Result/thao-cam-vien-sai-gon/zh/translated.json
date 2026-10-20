@@ -1,0 +1,35 @@
+{
+  "id": "thao-cam-vien-sai-gon",
+  "source_language": "vi",
+  "target_language": "zh",
+  "original": {
+    "id": "thao-cam-vien-sai-gon",
+    "name": "Thảo Cầm Viên Sài Gòn",
+    "address": "02 Nguyễn Bỉnh Khiêm, phường Sài Gòn, Thành phố Hồ Chí Minh",
+    "description": "Vườn thú và vườn thực vật lâu đời trong trung tâm thành phố, có khu cây xanh, động vật và các công trình văn hóa trong khuôn viên.",
+    "rating": {
+      "value": 4.3,
+      "scale": 5,
+      "source": "Google Maps (điểm tham quan, dữ liệu tổng hợp)",
+      "review_count": 34900,
+      "retrieved_on": "2026-10-20"
+    },
+    "review": "Không gian xanh phù hợp cho gia đình và chuyến tham quan ngoài trời; nên xem thông báo chính thức về hoạt động và giờ mở cửa.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/M%E1%BB%99t_ph%E1%BA%A7n_Th%E1%BA%A3o_C%E1%BA%A7m_Vi%C3%AAn_S%C3%A0i_G%C3%B2n.jpg",
+    "image_source": "Wikimedia Commons",
+    "image_credit": "Một phần Thảo Cầm Viên Sài Gòn",
+    "sources": [
+      "https://saigonzoo.net/",
+      "https://www.google.com/maps/search/Saigon+Zoo+and+Botanical+Gardens+Ho+Chi+Minh+City"
+    ]
+  },
+  "translated": {
+    "name": "袁元西贡",
+    "description": "市中心长期有动物园和植物园,校园内有绿色,动物和文化结构.",
+    "review": "绿色空间适合家庭旅游和户外旅游;应当视为正式宣布活动和开放时间。",
+    "address": "胡志明市"
+  },
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/M%E1%BB%99t_ph%E1%BA%A7n_Th%E1%BA%A3o_C%E1%BA%A7m_Vi%C3%AAn_S%C3%A0i_G%C3%B2n.jpg",
+  "image_source": "Wikimedia Commons",
+  "image_credit": "Một phần Thảo Cầm Viên Sài Gòn"
+}

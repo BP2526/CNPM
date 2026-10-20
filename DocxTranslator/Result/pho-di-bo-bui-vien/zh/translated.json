@@ -1,0 +1,34 @@
+{
+  "id": "pho-di-bo-bui-vien",
+  "source_language": "vi",
+  "target_language": "zh",
+  "original": {
+    "id": "pho-di-bo-bui-vien",
+    "name": "Phố đi bộ Bùi Viện",
+    "address": "Phố Bùi Viện, phường Bến Thành, Thành phố Hồ Chí Minh",
+    "description": "Tuyến phố trung tâm nổi tiếng với hoạt động ăn uống, giải trí và sinh hoạt về đêm, đông vui nhất vào buổi tối và cuối tuần.",
+    "rating": {
+      "value": 4.3,
+      "scale": 5,
+      "source": "Google Maps",
+      "review_count": 27493,
+      "retrieved_on": "2026-10-20"
+    },
+    "review": "Không khí sôi động, nhiều lựa chọn ăn uống và giải trí; phù hợp với khách muốn trải nghiệm nhịp sống về đêm.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Bui_Vien_Walking_Street_1.jpg",
+    "image_source": "Wikimedia Commons",
+    "image_credit": "Bui Vien Walking Street 1",
+    "sources": [
+      "https://www.google.com/maps/search/Bui+Vien+Walking+Street+Ho+Chi+Minh+City"
+    ]
+  },
+  "translated": {
+    "name": "研究所走道",
+    "description": "中心路以供餐,娱乐,以及夜间活动而闻名,是晚间和周末最繁忙的一条道路.",
+    "review": "新鲜空气,许多饮食和娱乐选择;适合想体验夜晚生活节奏的客人.",
+    "address": "济明市"
+  },
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Bui_Vien_Walking_Street_1.jpg",
+  "image_source": "Wikimedia Commons",
+  "image_credit": "Bui Vien Walking Street 1"
+}

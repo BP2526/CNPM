@@ -1,0 +1,14 @@
+{
+  "object_id": "dinh-doc-lap",
+  "name": "Dinh Độc Lập",
+  "status": "complete",
+  "source_language": "vi",
+  "target_language": "en",
+  "result_directory": "dinh-doc-lap/en",
+  "files": {
+    "translated_json": "translated.json",
+    "translated_text": "translated.txt",
+    "audio": "speech.mp3"
+  },
+  "created_at": "2026-10-20T12:13:56.483541+00:00"
+}

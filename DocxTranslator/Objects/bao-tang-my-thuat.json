@@ -1,0 +1,20 @@
+{
+  "id": "bao-tang-my-thuat",
+  "name": "Bảo tàng Mỹ thuật Thành phố Hồ Chí Minh",
+  "address": "97A Phó Đức Chính, phường Bến Thành, Thành phố Hồ Chí Minh",
+  "description": "Bảo tàng mỹ thuật trong dinh thự lịch sử, trưng bày mỹ thuật Việt Nam qua nhiều giai đoạn cùng một số bộ sưu tập điêu khắc và hiện vật.",
+  "rating": {
+    "value": 4.3,
+    "scale": 5,
+    "source": "Google Maps",
+    "review_count": null,
+    "retrieved_on": "2026-10-20"
+  },
+  "review": "Phù hợp với người yêu nghệ thuật và kiến trúc; tòa nhà cổ cũng là một phần đáng xem của chuyến tham quan.",
+  "image_url": "https://architecture-tour.com/image/world-vietnam-ho-chi-minh-city-fine-arts-museum_image2-768x576.jpg",
+  "image_source": "Architecture Tour",
+  "image_credit": "Architecture Tour",
+  "sources": [
+    "https://hcmcmuseumoffinearts.wixsite.com/mysite/hours-and-admission"
+  ]
+}

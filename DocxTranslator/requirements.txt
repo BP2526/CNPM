@@ -1,0 +1,7 @@
+argostranslate>=1.11,<2
+gTTS
+python-docx
+pypdf
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+python-multipart>=0.0.9

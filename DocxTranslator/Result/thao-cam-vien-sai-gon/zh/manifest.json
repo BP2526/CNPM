@@ -1,0 +1,14 @@
+{
+  "object_id": "thao-cam-vien-sai-gon",
+  "name": "Thảo Cầm Viên Sài Gòn",
+  "status": "complete",
+  "source_language": "vi",
+  "target_language": "zh",
+  "result_directory": "thao-cam-vien-sai-gon/zh",
+  "files": {
+    "translated_json": "translated.json",
+    "translated_text": "translated.txt",
+    "audio": "speech.mp3"
+  },
+  "created_at": "2026-10-20T12:16:28.426771+00:00"
+}
