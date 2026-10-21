@@ -15,3 +15,12 @@ Bản đồ lấy danh sách địa điểm từ DocxTranslator. Với các đ�
 Chạy server trên máy tính chính, mở cổng TCP 8000 qua Windows Firewall trên mạng riêng, rồi truy cập `http://IP-máy-tính:8000` từ thiết bị khác. Không dùng `localhost` trên điện thoại. Nếu cần định vị GPS trên thiết bị di động, trình duyệt có thể yêu cầu HTTPS.
 
 Chỉ dùng trong mạng tin cậy; chưa cấu hình đăng nhập hay bảo vệ API khỏi người dùng khác trong mạng. Các file trong thư mục gốc `CNPM` không bị sửa.
+
+## Tạo tunnel HTTPS khi cần chia sẻ
+
+1. Mở PowerShell thứ nhất tại thư mục này và chạy `powershell -ExecutionPolicy Bypass -File .\run_local.ps1`.
+2. Mở PowerShell thứ hai cùng thư mục và chạy `powershell -ExecutionPolicy Bypass -File .\start_tunnel.ps1`. Nhấn Ctrl + c để hủy tunnel
+3. Chia sẻ URL `https://....trycloudflare.com` được in ra. Mỗi lần chạy tunnel có thể tạo URL khác.
+4. Giữ cả hai cửa sổ đang chạy trong lúc chia sẻ; nhấn `Ctrl+C` ở cửa sổ tunnel để dừng.
+
+Quick Tunnel là URL tạm thời, phù hợp cho demo. API chưa có đăng nhập, nên chỉ chia sẻ với người bạn tin cậy.
