@@ -1,0 +1,20 @@
+{
+  "id": "bao-tang-chung-tich-chien-tranh",
+  "name": "Bảo tàng Chứng tích Chiến tranh",
+  "address": "28 Võ Văn Tần, phường Xuân Hòa, Thành phố Hồ Chí Minh",
+  "description": "Bảo tàng giới thiệu tư liệu, hình ảnh, hiện vật và các chuyên đề về chiến tranh Việt Nam cùng hậu quả chiến tranh.",
+  "rating": {
+    "value": 4.5,
+    "scale": 5,
+    "source": "Google Maps",
+    "review_count": 41533,
+    "retrieved_on": "2026-10-20"
+  },
+  "review": "Nội dung giàu tư liệu và có sức gợi suy ngẫm; một số phòng trưng bày có hình ảnh nặng tính lịch sử.",
+  "image_url": "https://image.vietnamnews.vn/uploadvnnews/Article/2023/4/12/276626_HP.jpg",
+  "image_source": "Vietnam News",
+  "image_credit": "Vietnam News",
+  "sources": [
+    "https://wanderatlasguides.com/posts/ho-chi-minh-city-war-remnants-museum/"
+  ]
+}

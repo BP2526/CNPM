@@ -1,0 +1,14 @@
+{
+  "object_id": "buu-dien-trung-tam-sai-gon",
+  "name": "Bưu điện Trung tâm Sài Gòn",
+  "status": "complete",
+  "source_language": "vi",
+  "target_language": "zh",
+  "result_directory": "buu-dien-trung-tam-sai-gon/zh",
+  "files": {
+    "translated_json": "translated.json",
+    "translated_text": "translated.txt",
+    "audio": "speech.mp3"
+  },
+  "created_at": "2026-10-20T12:15:45.573921+00:00"
+}

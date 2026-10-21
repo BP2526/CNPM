@@ -1,0 +1,14 @@
+{
+  "object_id": "nha-tho-duc-ba",
+  "name": "Nhà thờ Đức Bà Sài Gòn",
+  "status": "complete",
+  "source_language": "vi",
+  "target_language": "zh",
+  "result_directory": "nha-tho-duc-ba/zh",
+  "files": {
+    "translated_json": "translated.json",
+    "translated_text": "translated.txt",
+    "audio": "speech.mp3"
+  },
+  "created_at": "2026-10-20T12:15:36.754678+00:00"
+}

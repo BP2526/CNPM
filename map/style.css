@@ -1,0 +1,415 @@
+:root {
+  --ink: #1f2a37;
+  --muted: #6b7280;
+  --line: #d9e2ec;
+  --bg: #f4f8f7;
+  --brand: #0c7b64;
+  --brand-dark: #0b5953;
+  --accent: #f59e0b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Be Vietnam Pro", system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+}
+
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.header {
+  flex: 0 0 auto;
+  color: white;
+  font-size: 0.98rem;
+  margin-bottom: 16px;
+  padding: 2px 20px;
+  background: var(--brand);
+  border-radius: 8px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* ---------- Bố cục khám phá ---------- */
+.explorer-layout {
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(250px, 320px) minmax(0, 1fr);
+  gap: 16px;
+  align-items: stretch;
+  padding: 0 20px 16px;
+}
+
+.search-panel {
+  min-width: 0;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+#btn-location {
+  white-space: nowrap;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--brand);
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+#btn-location:hover {
+  background: var(--brand-dark);
+}
+#btn-location:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+/* ---------- Tìm kiếm ---------- */
+.search-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 14px;
+}
+
+#btn-location {
+  width: 100%;
+}
+
+.search-wrapper {
+  position: relative; /* Làm điểm tựa để định vị nút Tìm */
+  display: flex;
+}
+
+.radius-control {
+  display: grid;
+  gap: 6px;
+  color: var(--ink);
+  font-size: 0.9rem;
+}
+
+.radius-control label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+
+#radius-value {
+  color: var(--brand);
+  font-weight: 700;
+}
+
+#radius-slider {
+  width: 100%;
+  margin: 4px 0 0;
+  accent-color: var(--brand);
+  cursor: pointer;
+}
+
+.radius-range-labels {
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+#search-input {
+  width: 100%;
+  /* TRỌNG TÂM: Tăng padding bên phải (vd: 60px) để chữ gõ vào không bị khuất sau nút Tìm */
+  padding: 10px 60px 10px 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+}
+
+/* Định dạng cho nút Tìm nằm bên trong */
+#btn-search {
+  position: absolute;
+  right: 5px; /* Cách mép phải của ô input 5px */
+  top: 50%;
+  transform: translateY(
+    -50%
+  ); /* Bí quyết để nút luôn canh giữa chính xác theo chiều dọc */
+
+  /* Trang trí cho nút đẹp hơn */
+  padding: 6px 8px;
+  background-color: var(--brand); /* Màu xanh đồng bộ với nút Lấy vị trí */
+  color: white;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#btn-search:hover {
+  background-color: var(--brand-dark);
+}
+#btn-search:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+#search-results {
+  top: 100%;
+  left: 0;
+  margin-top: 5px; /* Cách ô input một chút cho đẹp */
+  position: absolute;
+  z-index: 1000;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 4px 0;
+  list-style: none;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+#search-results li {
+  padding: 10px 14px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: grid;
+  gap: 2px;
+}
+#search-results li strong {
+  font-weight: 600;
+}
+#search-results li > span:not(.search-result-distance) {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+#search-results .search-result-distance {
+  color: var(--brand);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+#search-results li:hover,
+#search-results li[aria-selected="true"] {
+  background: #e6f4f1;
+}
+
+/* ---------- Chips ---------- */
+.chips {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+.chip:hover {
+  border-color: var(--brand);
+}
+.chip.active {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #fff;
+}
+
+#status {
+  min-height: 1.4em;
+  margin: 12px 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+#status.error {
+  color: #b91c1c;
+}
+
+/* ---------- Bản đồ ---------- */
+#map {
+  height: auto;
+  min-height: 420px;
+  width: 100%;
+  min-width: 0;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+}
+
+/* ---------- Ghim ---------- */
+.pin span {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  font-size: 18px;
+  background: #fff;
+  border: 2px solid var(--brand);
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.pin-user span {
+  width: 16px;
+  height: 16px;
+  background: #2563eb;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.3);
+}
+
+/* ---------- Popup ---------- */
+.place-card {
+  width: min(270px, 72vw);
+  font-family: "Be Vietnam Pro", system-ui, sans-serif;
+}
+
+.place-thumb {
+  height: 110px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #cdeae5, #e9f5f2);
+  display: grid;
+  place-items: center;
+  font-size: 40px;
+  overflow: hidden;
+}
+.place-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.place-name {
+  margin: 0 0 4px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.place-meta {
+  margin: 0 0 2px;
+  font-size: 0.82rem;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.place-website {
+  display: inline-block;
+  margin-top: 4px;
+  color: var(--brand);
+}
+.place-rating {
+  color: #b45309;
+  font-weight: 500;
+}
+
+.place-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  margin-top: 10px;
+}
+.place-actions a,
+.place-actions button {
+  flex: 1;
+  padding: 8px 6px;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.25;
+}
+
+.btn-route {
+  background: var(--brand);
+  color: #fff !important;
+  border: 0;
+}
+.place-actions .btn-route {
+  grid-column: 1 / -1;
+}
+.btn-listen {
+  background: #fff;
+  color: var(--brand);
+  border: 1px solid var(--brand);
+}
+.btn-audio-stop {
+  background: #f3f4f6;
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+.btn-audio-stop:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.btn-listen.playing {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.place-audio-status {
+  min-height: 1.2em;
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+@media (max-width: 760px) {
+  body {
+    display: block;
+  }
+
+  .explorer-layout {
+    flex: initial;
+    grid-template-columns: 1fr;
+    padding: 0 16px 16px;
+  }
+
+  .search-container {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    align-items: center;
+  }
+
+  .chips {
+    grid-column: 1 / -1;
+    flex-direction: row;
+  }
+
+  #map {
+    height: 55vh;
+    min-height: 360px;
+  }
+}
+
+@media (max-width: 420px) {
+  .search-container {
+    grid-template-columns: 1fr;
+  }
+
+  .chips {
+    grid-column: auto;
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "object_id": "pho-di-bo-bui-vien",
+  "name": "Phố đi bộ Bùi Viện",
+  "status": "complete",
+  "source_language": "vi",
+  "target_language": "zh",
+  "result_directory": "pho-di-bo-bui-vien/zh",
+  "files": {
+    "translated_json": "translated.json",
+    "translated_text": "translated.txt",
+    "audio": "speech.mp3"
+  },
+  "created_at": "2026-10-20T12:15:10.772939+00:00"
+}

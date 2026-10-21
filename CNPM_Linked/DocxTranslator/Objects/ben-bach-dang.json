@@ -1,0 +1,20 @@
+{
+  "id": "ben-bach-dang",
+  "name": "Bến Bạch Đằng",
+  "address": "10B Tôn Đức Thắng, phường Sài Gòn, Thành phố Hồ Chí Minh",
+  "description": "Không gian công cộng ven sông Sài Gòn, có lối dạo bộ và điểm ngắm cảnh trung tâm; khu vực cũng là nơi tiếp cận một số dịch vụ tàu, thuyền.",
+  "rating": {
+    "value": 4.6,
+    "scale": 5,
+    "source": "Google Maps (Bạch Đằng Quay Park)",
+    "review_count": null,
+    "retrieved_on": "2026-10-20"
+  },
+  "review": "Thích hợp đi dạo và ngắm sông, đặc biệt vào buổi chiều tối; hoạt động tàu thuyền cần kiểm tra riêng.",
+  "image_url": "https://img.vietcetera.com/uploads/images/05-apr-2024/4q4a5981.jpeg",
+  "image_source": "Vietcetera",
+  "image_credit": "Ảnh của Khoa Nguyen, Vietcetera",
+  "sources": [
+    "https://www.google.com/maps/search/Bach+Dang+Quay+Park+Ho+Chi+Minh+City"
+  ]
+}

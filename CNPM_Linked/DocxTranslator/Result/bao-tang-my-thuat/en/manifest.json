@@ -1,0 +1,14 @@
+{
+  "object_id": "bao-tang-my-thuat",
+  "name": "Bảo tàng Mỹ thuật Thành phố Hồ Chí Minh",
+  "status": "complete",
+  "source_language": "vi",
+  "target_language": "en",
+  "result_directory": "bao-tang-my-thuat/en",
+  "files": {
+    "translated_json": "translated.json",
+    "translated_text": "translated.txt",
+    "audio": "speech.mp3"
+  },
+  "created_at": "2026-10-20T12:14:16.698165+00:00"
+}

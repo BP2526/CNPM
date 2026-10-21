@@ -1,0 +1,61 @@
+{
+  "city": "Thành phố Hồ Chí Minh",
+  "count": 11,
+  "items": [
+    {
+      "id": "dinh-doc-lap",
+      "name": "Dinh Độc Lập",
+      "file": "dinh-doc-lap.json"
+    },
+    {
+      "id": "bao-tang-my-thuat",
+      "name": "Bảo tàng Mỹ thuật Thành phố Hồ Chí Minh",
+      "file": "bao-tang-my-thuat.json"
+    },
+    {
+      "id": "bao-tang-chung-tich-chien-tranh",
+      "name": "Bảo tàng Chứng tích Chiến tranh",
+      "file": "bao-tang-chung-tich-chien-tranh.json"
+    },
+    {
+      "id": "cho-ben-thanh",
+      "name": "Chợ Bến Thành",
+      "file": "cho-ben-thanh.json"
+    },
+    {
+      "id": "pho-di-bo-bui-vien",
+      "name": "Phố đi bộ Bùi Viện",
+      "file": "pho-di-bo-bui-vien.json"
+    },
+    {
+      "id": "bao-tang-ho-chi-minh",
+      "name": "Bảo tàng Hồ Chí Minh – Chi nhánh Thành phố Hồ Chí Minh (Bến Nhà Rồng)",
+      "file": "bao-tang-ho-chi-minh.json"
+    },
+    {
+      "id": "nha-tho-duc-ba",
+      "name": "Nhà thờ Đức Bà Sài Gòn",
+      "file": "nha-tho-duc-ba.json"
+    },
+    {
+      "id": "buu-dien-trung-tam-sai-gon",
+      "name": "Bưu điện Trung tâm Sài Gòn",
+      "file": "buu-dien-trung-tam-sai-gon.json"
+    },
+    {
+      "id": "nha-hat-thanh-pho-ho-chi-minh",
+      "name": "Nhà hát Thành phố Hồ Chí Minh",
+      "file": "nha-hat-thanh-pho-ho-chi-minh.json"
+    },
+    {
+      "id": "ben-bach-dang",
+      "name": "Bến Bạch Đằng",
+      "file": "ben-bach-dang.json"
+    },
+    {
+      "id": "thao-cam-vien-sai-gon",
+      "name": "Thảo Cầm Viên Sài Gòn",
+      "file": "thao-cam-vien-sai-gon.json"
+    }
+  ]
+}

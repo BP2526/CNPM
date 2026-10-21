@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khám phá địa điểm xung quanh</title>
+
+    <!-- Thư viện Leaflet (dùng cho bản đồ ở bước sau) -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+
+    <!-- CSS của bạn -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Hệ thống địa điểm tham quan nổi tiếng TP.HCM</h1>
+    </div>
+
+    <main class="explorer-layout">
+      <aside class="search-panel" aria-label="Tìm kiếm địa điểm">
+        <div class="search-container">
+          <button id="btn-location">Lấy vị trí</button>
+          <div class="search-wrapper">
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Tìm kiếm..."
+              autocomplete="off"
+              aria-autocomplete="list"
+              aria-controls="search-results"
+            />
+            <button id="btn-search">Tìm</button>
+            <ul id="search-results" class="hidden" role="listbox"></ul>
+          </div>
+          <div class="radius-control">
+            <label for="radius-slider">
+              Bán kính tìm kiếm:
+              <output id="radius-value" for="radius-slider">1 km</output>
+            </label>
+            <input
+              type="range"
+              id="radius-slider"
+              min="1"
+              max="5"
+              step="1"
+              value="1"
+              aria-label="Bán kính tìm kiếm từ 1 đến 5 km"
+            />
+            <div class="radius-range-labels" aria-hidden="true">
+              <span>1 km</span>
+              <span>5 km</span>
+            </div>
+          </div>
+          <!-- Bộ lọc danh mục (chips) -->
+          <div
+            class="chips"
+            id="chips"
+            role="group"
+            aria-label="Loại địa điểm"
+          ></div>
+        </div>
+
+        <p id="status" role="status">
+          Bấm “Lấy vị trí” hoặc nhập địa chỉ để bắt đầu.
+        </p>
+      </aside>
+
+      <!-- Khung chứa bản đồ -->
+      <div id="map"></div>
+    </main>
+
+    <!-- Thư viện Leaflet JS (đặt trước script.js) -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- JS của bạn -->
+    <script src="script.js"></script>
+  </body>
+</html>

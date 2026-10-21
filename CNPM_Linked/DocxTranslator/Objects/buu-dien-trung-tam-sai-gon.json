@@ -1,0 +1,21 @@
+{
+  "id": "buu-dien-trung-tam-sai-gon",
+  "name": "Bưu điện Trung tâm Sài Gòn",
+  "address": "02 Công trường Công xã Paris, phường Sài Gòn, Thành phố Hồ Chí Minh",
+  "description": "Công trình bưu điện lịch sử hoàn thành năm 1891, có sảnh mái vòm lớn và các chi tiết kiến trúc thời kỳ Pháp thuộc.",
+  "rating": {
+    "value": 4.4,
+    "scale": 5,
+    "source": "Google Maps",
+    "review_count": 5753,
+    "retrieved_on": "2026-10-20"
+  },
+  "review": "Có thể kết hợp tham quan với Nhà thờ Đức Bà; sảnh bên trong là điểm đáng chú ý.",
+  "image_url": "https://vietnampost.vn/uploads/storage/vnp/old/2023/05/12/268ef98f-0230-4094-8593-9131bc8e25cf.jpg",
+  "image_source": "Vietnam Post",
+  "image_credit": "Vietnam Post",
+  "sources": [
+    "https://vnpost.vn/vi/bai-viet/buu-dien-trung-tam-thanh-pho-ho-chi-minh-mot-diem-den-hap-dan",
+    "https://www.google.com/maps/search/Visit+the+Saigon+Central+Post+Office+Ho+Chi+Minh+City+Vietnam"
+  ]
+}

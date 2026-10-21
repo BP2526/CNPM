@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Chủ - Đề xuất địa điểm</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* CSS riêng cho trang chủ */
+      .hero {
+        text-align: center;
+        padding: 40px 20px;
+        background: linear-gradient(135deg, var(--brand), var(--brand-dark));
+        color: white;
+        border-radius: 12px;
+        margin-bottom: 30px;
+      }
+      .hero p {
+        opacity: 0.9;
+        margin-top: 10px;
+        font-size: 1.1rem;
+      }
+
+      .section-title {
+        font-size: 1.5rem;
+        color: var(--ink);
+        margin-bottom: 20px;
+        padding-left: 10px;
+        border-left: 4px solid var(--brand);
+      }
+
+      .places-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 20px;
+        padding-bottom: 40px;
+      }
+
+      .suggest-card {
+        background: white;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        overflow: hidden;
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s;
+        cursor: pointer;
+        text-decoration: none;
+        color: var(--ink);
+        display: block;
+      }
+
+      .suggest-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        border-color: var(--brand);
+      }
+
+      .card-img {
+        height: 180px;
+        background-color: #e2e8f0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--muted);
+        font-size: 3rem;
+        /* Nếu bạn có hình ảnh, thay background-color bằng hình: */
+        /* background-image: url('hinh-anh.jpg'); background-size: cover; */
+      }
+
+      .card-body {
+        padding: 16px;
+      }
+      .card-body h3 {
+        margin: 0 0 8px;
+        font-size: 1.2rem;
+        color: var(--brand-dark);
+      }
+      .card-body p {
+        margin: 0;
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Hệ thống địa điểm tham quan nổi tiếng TP.HCM</h1>
+    </div>
+    <div class="app">
+      <div class="hero">
+        <h1>Khám Phá Sài Gòn</h1>
+        <p>Tìm kiếm những điểm đến tuyệt vời nhất quanh bạn</p>
+      </div>
+
+      <h2 class="section-title">📍 Địa điểm nổi bật</h2>
+
+      <div class="places-grid">
+        <!-- Thẻ 1: Dinh Độc Lập -->
+        <!-- Link chuyển sang trang index.html kèm tham số lat, lng -->
+        <a
+          href="index.html?lat=10.776889&lng=106.695325&name=Dinh Độc Lập"
+          class="suggest-card"
+        >
+          <div class="card-img" style="background-color: #cdeae5">🏛️</div>
+          <div class="card-body">
+            <h3>Dinh Độc Lập</h3>
+            <p>
+              Khám phá di tích lịch sử nổi tiếng tại Quận 1, xung quanh có rất
+              nhiều quán cafe đẹp.
+            </p>
+          </div>
+        </a>
+
+        <!-- Thẻ 2: Phố đi bộ Nguyễn Huệ -->
+        <a
+          href="index.html?lat=10.773531&lng=106.702758&name=Phố đi bộ Nguyễn Huệ"
+          class="suggest-card"
+        >
+          <div class="card-img" style="background-color: #fce7f3">🚶</div>
+          <div class="card-body">
+            <h3>Phố đi bộ Nguyễn Huệ</h3>
+            <p>Trung tâm giải trí sầm uất bậc nhất Sài Gòn về đêm.</p>
+          </div>
+        </a>
+
+        <!-- Thẻ 3: Landmark 81 -->
+        <a
+          href="index.html?lat=10.792576&lng=106.721469&name=Landmark 81"
+          class="suggest-card"
+        >
+          <div class="card-img" style="background-color: #e0e7ff">🏢</div>
+          <div class="card-body">
+            <h3>Landmark 81</h3>
+            <p>
+              Tòa nhà cao nhất Việt Nam, nơi tập trung nhiều nhà hàng và rạp
+              chiếu phim.
+            </p>
+          </div>
+        </a>
+
+        <!-- Bạn có thể copy thẻ a trên để thêm nhiều địa điểm nữa -->
+      </div>
+    </div>
+  </body>
+</html>

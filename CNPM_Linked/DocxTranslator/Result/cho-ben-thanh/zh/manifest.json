@@ -1,0 +1,14 @@
+{
+  "object_id": "cho-ben-thanh",
+  "name": "Chợ Bến Thành",
+  "status": "complete",
+  "source_language": "vi",
+  "target_language": "zh",
+  "result_directory": "cho-ben-thanh/zh",
+  "files": {
+    "translated_json": "translated.json",
+    "translated_text": "translated.txt",
+    "audio": "speech.mp3"
+  },
+  "created_at": "2026-10-20T12:14:59.107456+00:00"
+}

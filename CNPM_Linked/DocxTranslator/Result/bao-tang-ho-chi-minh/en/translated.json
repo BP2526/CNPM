@@ -1,0 +1,35 @@
+{
+  "id": "bao-tang-ho-chi-minh",
+  "source_language": "vi",
+  "target_language": "en",
+  "original": {
+    "id": "bao-tang-ho-chi-minh",
+    "name": "Bảo tàng Hồ Chí Minh – Chi nhánh Thành phố Hồ Chí Minh (Bến Nhà Rồng)",
+    "address": "01 Nguyễn Tất Thành, phường Xóm Chiếu, Thành phố Hồ Chí Minh",
+    "description": "Bảo tàng đặt tại Bến Nhà Rồng, nơi Nguyễn Tất Thành ra đi tìm đường cứu nước năm 1911; trưng bày tư liệu về cuộc đời và sự nghiệp của Chủ tịch Hồ Chí Minh.",
+    "rating": {
+      "value": null,
+      "scale": 5,
+      "source": null,
+      "review_count": null,
+      "retrieved_on": "2026-10-20"
+    },
+    "review": "Địa điểm có ý nghĩa lịch sử sâu sắc, kết hợp tham quan kiến trúc Nhà Rồng và không gian ven sông.",
+    "image_url": "https://travelviet.net/cdn-cgi/image/width%3D850%2Cquality%3D60%2Cmetadata%3Dnone%2Cheight%3D550%2Cfit%3Dcover%2Cformat%3Dauto/https%3A/images.travelviet.net/vietnam/s3/s3_amazon/c03a3cee-7076-43ed-aa9d-76c8b681b472-image-rwh1622796161-1536x864jpg.jpg",
+    "image_source": "TravelViet",
+    "image_credit": "Ảnh Bến Nhà Rồng",
+    "sources": [
+      "https://english.hochiminh.vn/news/ho-chi-minh-museum-marks-great-leaders-imprints-1724",
+      "https://bennharong.hochiminh.vn/BenNhaRongdata/pano/info.html"
+    ]
+  },
+  "translated": {
+    "name": "Ho Chi Minh Museum – Ho Chi Minh City Branch (The Dragon House)",
+    "description": "The museum is located at the Dragon's House, where Clark City went out to find a water rescue in 1911; display material on Ho Chi Minh's life and career.",
+    "review": "The site has profound historical significance, combining the dragonhouse and riverside architecture.",
+    "address": "The city of Hu Chi Minh"
+  },
+  "image_url": "https://travelviet.net/cdn-cgi/image/width%3D850%2Cquality%3D60%2Cmetadata%3Dnone%2Cheight%3D550%2Cfit%3Dcover%2Cformat%3Dauto/https%3A/images.travelviet.net/vietnam/s3/s3_amazon/c03a3cee-7076-43ed-aa9d-76c8b681b472-image-rwh1622796161-1536x864jpg.jpg",
+  "image_source": "TravelViet",
+  "image_credit": "Ảnh Bến Nhà Rồng"
+}
